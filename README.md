@@ -2,7 +2,7 @@
 
 ## Windows configuration
 
-## git installation
+### git installation
 
 - Option 1: Install from winget (recommended)
 
@@ -14,7 +14,7 @@
   > 1. Visit [here](https://git-scm.com/download/win)
   > 2. Other Git for Windows downloads > Standalone Installer > 64-bit Git for Windows Setup.
 
-## verify installation
+### verify installation
 
 1. Open command promt from windows search.
 2. run following command `git --version`
@@ -22,14 +22,14 @@
 
 You might need to restart you computer after installation if you use powershell.
 
-# configuere user
+### Configuere user
 
 ```
 git config --global user.name "<your full name>"
 git config --global user.email "<valid-email>"
 ```
 
-## Setup SSH connection
+### Setup SSH connection
 
 1. launch git bash from windows search and run the following commands
    ```
@@ -66,14 +66,14 @@ If everything goes as followed you are good to go otherwise you are fucked up.
 
 ## Git config for linux
 
-## installation
+### installation
 
 - on debian/ubuntu distro based - `sudo apt install git`
 - on arch based distro - ` sudo pacman -S git`
 - On fedora based distro - ` sudo dnf install git`
   <br>By the way I use manjaro and Linux Mint.
 
-## configuire git
+### Configuire user
 
 ```
 # name
@@ -82,7 +82,7 @@ git config --global user.name "$name"
 git config --global user.email "$email"
 ```
 
-## set up ssh
+### Set up ssh connection
 
 1. generate key
 
