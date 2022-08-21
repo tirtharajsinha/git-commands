@@ -1,4 +1,6 @@
-# Windows configuration
+# Git config for windows and linux and some common commands
+
+## Windows configuration
 
 ## git installation
 
@@ -24,7 +26,7 @@ You might need to restart you computer after installation if you use powershell.
 
 ```
 git config --global user.name "<your full name>"
-git config --global user.email “<valid-email>”
+git config --global user.email "<valid-email>"
 ```
 
 ## Setup SSH connection
@@ -58,11 +60,11 @@ git config --global user.email “<valid-email>”
 
    > Hi username! You've successfully authenticated, but GitHub does not provide shell access.
 
-8. If everything goes as followed you are good to go otherwise you are fucked up.
+If everything goes as followed you are good to go otherwise you are fucked up.
 
 <br><hr><br>
 
-# Git config for linux
+## Git config for linux
 
 ## installation
 
@@ -115,7 +117,7 @@ git config --global user.email "$email"
 
 If everything goes as followed you are good to go otherwise you are linus user fix this by yourself.
 
-# common commands
+## common commands
 
 1. `git status -s`
    Used for review file status managed order.
@@ -147,3 +149,7 @@ If everything goes as followed you are good to go otherwise you are linus user f
     ```
     Upstream your repository
 12. `git reset --hard origin/main` In case you get messed up with your repo and you need to reset your local repo.
+
+<hr>
+
+### By Tirtharaj Sinha [@tirtharajsinha](https://github.com/tirtharajsinha)
