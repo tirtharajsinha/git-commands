@@ -43,7 +43,7 @@ git config --global user.email “<valid-email>”
 2. Copy the text got after running the previous command you need it later this config.
 3. Login to your github account.
 4. now go to [https://github.com/settings/ssh/new](https://github.com/settings/ssh/new)
-5. Now Paste the previously copied text in `key` box and give a unique title don't be like neighbourhood aunty.
+5. Now Paste the previously copied text in `key` box and give a unique title.
 6. if you lost the key you messed up.
    No don't worry I was just kiddin. run command ` notepad ~/.ssh/id_rsa.pub` and get the text.
 
@@ -53,7 +53,7 @@ git config --global user.email “<valid-email>”
    ssh -T git@github.com
    ```
 
-   now type `yes` if it asks for any input. <br>
+   now type ``yes` if it asks for any input. <br>
    result shoud be some thing like this
 
    > Hi username! You've successfully authenticated, but GitHub does not provide shell access.
@@ -98,7 +98,7 @@ git config --global user.email "$email"
 
 3. copy the content and visit [https://github.com/settings/ssh/new](https://github.com/settings/ssh/new)
 
-4. Now Paste the previously copied text in `key` box and give a unique title don't be like neighbourhood aunty.
+4. Now Paste the previously copied text in `key` box and give a unique title.
 
 5. Attempts to ssh to GitHub
 
@@ -114,36 +114,3 @@ git config --global user.email "$email"
    > provide shell access.
 
 If everything goes as followed you are good to go otherwise you are linus user fix this by yourself.
-
-# common commands
-
-1. `git status -s`
-   Used for review file status managed order.
-2. `git add -A`
-   Adding all file together
-3. `git commit -a -m “commit massage”`
-   Adding and commiting together
-4. `git log -p -[number]`
-   View last [number] of commits
-5. `git checkout -f`
-   Compare current changes to last commit.for undo recent unwanted change.
-6. `git rm --cached [file name]`
-   Removing file from git repository not folder
-7. `touch .gitignore`
-   Creating .gitignore file in working tree.
-8. `git push`
-   Push local changes to remote repo.
-
-9. `git pull`
-   If remote branch is behind some commit of remote repo it fetch the remote changes be it your personal repo or you have permission.
-
-10. `git remote add upstream <original ropo link>`
-    upstream the local repository with remote repository
-
-11. ```
-    git fetch upstream
-    git checkout main
-    git merge upstream/main
-    ```
-    Upstream your repository
-12. `git reset --hard origin/main` In case you get messed up with your repo and you need to reset your local repo.
