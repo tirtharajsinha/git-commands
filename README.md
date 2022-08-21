@@ -1,5 +1,10 @@
 # Git config for windows and linux and some common commands
 
+- [Windows config](#windows-configuration)
+- [Linux config](#git-config-for-linux)
+- [Common commands](#common-commands)
+<hr>
+
 ## Windows configuration
 
 ### git installation
@@ -117,7 +122,9 @@ git config --global user.email "$email"
 
 If everything goes as followed you are good to go otherwise you are linus user fix this by yourself.
 
-## common commands
+<br><hr><br>
+
+## Common commands
 
 1. `git status -s`
    Used for review file status managed order.
